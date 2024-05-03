@@ -1,6 +1,6 @@
 ### Hi, welcome on my GitHub profile 👋
 
-I'm **Azurioh** *(Alan CUNIN)*, I'm 18 and I'm passioned of the IT world
+I'm **Azurioh** *(Alan CUNIN)*, I'm 19 and I'm passioned of the IT world
 
 ## 💻 | My activities :
 - 🏆 I'm volunteer for the esport structure <a href="http://teambsk.fr">BSK Esport</a>
