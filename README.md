@@ -10,9 +10,6 @@
     <a href="https://alancunin.fr"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
 </div>
 
-<!-- 🌱 I’m currently learning at Epitech Mulhouse<br>⚡ Fun fact - I'm a developer -->
----
-
 # 💫 About Me:
 
 I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with a passion for software engineering and community leadership.
@@ -21,12 +18,10 @@ I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with 
 - 🤝 **Strengths:** communication, teamwork, and fostering inclusive, collaborative spaces  
 - 🚀 **Ambition:** to grow as both a developer and mentor, building meaningful solutions while empowering my peers
 
----
-
 # 💻 Technical Stack
 
 <div align="center" style="margin-bottom: 40px;">
-    <h2>🌎 Frontend</h2>
+    <h3>🌎 Frontend</h3>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" height=50 style="margin-right: 10px"/>
@@ -36,7 +31,7 @@ I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with 
 </div>
 
 <div align="center" style="margin-bottom: 40px;">
-    <h2>💼 Backend</h2>
+    <h3>💼 Backend</h3>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg" height=50 style="background-color: white; margin-right: 10px;"/>
@@ -46,7 +41,7 @@ I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with 
 </div>
 
 <div align="center" style="margin-bottom: 40px;">
-    <h2>♻️ DevOps</h2>
+    <h3>♻️ DevOps</h3>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height=50 style="margin-right: 10px"/>
@@ -56,7 +51,7 @@ I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with 
 </div>
 
 <div align="center" style="margin-bottom: 40px;">
-    <h2>💼 Project Management</h2>
+    <h3>💼 Project Management</h3>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" height=50 style="margin-right: 10px"/>
@@ -64,7 +59,7 @@ I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with 
 </div>
 
 <div align="center" style="margin-bottom: 40px;">
-    <h2>💡 Other Languages</h2>
+    <h3>💡 Other Languages</h3>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height=50 style="margin-right: 10px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/haskell/haskell-original.svg" height=50 style="margin-right: 10px"/>
