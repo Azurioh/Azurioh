@@ -12,7 +12,7 @@
 
 # 💫 About Me:
 
-I’m **Alan CUNIN** (Azurioh), a 2nd‑year student at Epitech Mulhouse with a passion for software engineering and community leadership.
+I’m **Alan CUNIN** (Azurioh), a 3rd‑year student at Epitech Mulhouse with a passion for software engineering and community leadership.
 
 - 🎯 **Focused on:** deepening my understanding of modern development practices and mentoring peers  
 - 🤝 **Strengths:** communication, teamwork, and fostering inclusive, collaborative spaces  
