@@ -7,7 +7,7 @@
 🎓 Software Engineering student **@ Epitech** — building production software for real companies in parallel.
 
 <a href="https://www.linkedin.com/in/alancunin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="https://alancunin.fr"><img src="https://img.shields.io/badge/alancunin.fr-111111?style=for-the-badge&logo=icloud&logoColor=white"></a>
+<a href="https://www.azu-dev.fr"><img src="https://img.shields.io/badge/azu-dev.fr-111111?style=for-the-badge&logo=icloud&logoColor=white"></a>
 <a href="mailto:alancunin@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
 </div>
