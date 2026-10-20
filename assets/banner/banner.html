@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Profile banner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&family=JetBrains+Mono:wght@400;500&display=block" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #f5f5fa;
+    --grid: rgba(120, 120, 160, 0.16);
+    --blob-blue: rgba(107, 124, 255, 0.55);
+    --blob-pink: rgba(246, 165, 192, 0.7);
+    --pill-bg: #0d1117;
+    --pill-fg: #ffffff;
+    --pill-border: transparent;
+    --eyebrow: #1f2328;
+    --heading: #0b0d1a;
+    --footer: #6e7781;
+    --ring: rgba(255, 255, 255, 0.9);
+    --shadow: rgba(40, 44, 90, 0.22);
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1117;
+    --grid: rgba(201, 209, 217, 0.08);
+    --blob-blue: rgba(107, 124, 255, 0.38);
+    --blob-pink: rgba(246, 165, 192, 0.3);
+    --pill-bg: #e6edf3;
+    --pill-fg: #0d1117;
+    --pill-border: transparent;
+    --eyebrow: #c9d1d9;
+    --heading: #e6edf3;
+    --footer: #8b949e;
+    --ring: rgba(230, 237, 243, 0.14);
+    --shadow: rgba(0, 0, 0, 0.55);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1400px; height: 350px; overflow: hidden; }
+  body { background: var(--bg); position: relative; font-family: "Inter", sans-serif; }
+  .grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(to right, var(--grid) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+    background-size: 36px 36px;
+    -webkit-mask-image: linear-gradient(to right, #000 0%, #000 22%, transparent 52%);
+    mask-image: linear-gradient(to right, #000 0%, #000 22%, transparent 52%);
+  }
+  .blob { position: absolute; border-radius: 50%; filter: blur(90px); }
+  .blob.blue { width: 520px; height: 420px; left: -170px; bottom: -230px; background: var(--blob-blue); }
+  .blob.pink { width: 560px; height: 420px; right: -180px; top: -250px; background: var(--blob-pink); }
+  .photo {
+    position: absolute; left: 132px; top: 47px; width: 256px; height: 256px; border-radius: 50%;
+    box-shadow: 0 0 0 6px var(--ring), 0 18px 48px var(--shadow);
+  }
+  .photo img { width: 100%; height: 100%; border-radius: 50%; display: block; }
+  .content { position: absolute; left: 555px; top: 0; height: 350px; display: flex; flex-direction: column; justify-content: center; }
+  .pill {
+    align-self: flex-start; display: inline-flex; align-items: center; gap: 10px;
+    background: var(--pill-bg); color: var(--pill-fg); border: 1px solid var(--pill-border);
+    border-radius: 999px; padding: 9px 22px 9px 18px; font-size: 22px; font-weight: 600; letter-spacing: -0.01em;
+  }
+  .pill .emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; font-size: 22px; line-height: 1; }
+  .eyebrow {
+    margin-top: 22px; font-family: "JetBrains Mono", monospace; font-weight: 500; font-size: 24px;
+    letter-spacing: 0.14em; color: var(--eyebrow);
+  }
+  h1 {
+    margin-top: 10px; font-weight: 800; font-size: 68px; line-height: 1.02; letter-spacing: -0.035em; color: var(--heading);
+  }
+  .footer { margin-top: 18px; font-family: "JetBrains Mono", monospace; font-size: 24px; color: var(--footer); }
+</style>
+<script>
+  if (new URLSearchParams(location.search).get("theme") === "dark") {
+    document.documentElement.dataset.theme = "dark";
+  }
+</script>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="blob blue"></div>
+  <div class="blob pink"></div>
+  <div class="photo"><img src="portrait.jpg" alt="" /></div>
+  <div class="content">
+    <div class="pill"><span class="emoji">🏆</span><span>1st worldwide · AWS Clash of Agents 2026</span></div>
+    <div class="eyebrow">BACKEND · AWS · LLM AGENTS</div>
+    <h1>Backend developer<br />&amp; agentic AI</h1>
+    <div class="footer">Epitech · Dublin City University · Internship 2027-28</div>
+  </div>
+</body>
+</html>
