@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117%2C100:30363d&height=160&section=header&text=Alan%20Cunin&fontColor=e6edf3&fontSize=56&fontAlignY=42&desc=Backend%20%C2%B7%20Cloud%20%C2%B7%20Agentic%20AI&descAlignY=68&descSize=16" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:f6f8fa%2C100:d0d7de&height=160&section=header&text=Alan%20Cunin&fontColor=1f2328&fontSize=56&fontAlignY=42&desc=Backend%20%C2%B7%20Cloud%20%C2%B7%20Agentic%20AI&descAlignY=68&descSize=16" />
-  <img alt="Alan Cunin — Backend · Cloud · Agentic AI" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117%2C100:30363d&height=160&section=header&text=Alan%20Cunin&fontColor=e6edf3&fontSize=56&fontAlignY=42&desc=Backend%20%C2%B7%20Cloud%20%C2%B7%20Agentic%20AI&descAlignY=68&descSize=16" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner/banner-dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner/banner-light.png" />
+  <img alt="Alan Cunin — Backend developer & agentic AI · 1st worldwide, AWS Clash of Agents 2026" src="assets/banner/banner-light.png" width="100%" />
 </picture>
 
 <div align="center">
